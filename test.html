@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-test.css">
+    <script src="main.js"></script>
+    <title>tests studio</title>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <div class="navbar">
+        <a href="test.html">tests</a>
+        <a href="contact.html">contact</a>
+        <a href="about.html">about</a>
+        <a href="projects.html">projects</a>
+        <a id="cv" href="/files/maximo-santoro-cv.pdf" download>CV</a>
+    </div>
+    
+    <div id="disa" class="display">
+        <h2>esto es
+            <span
+                class="txt-rotate"
+                data-period="2000"
+                data-rotate='[ "terrible.", "buenisimo.", "muy bueno.", "demasiado bueno.", "epico." ]'></span>
+        </h2>
+        <button onclick="disap()">no te animas.</button>
+        <button onclick="changeText()">en que anio estamos?</button>
+        <h3 id="change">hola</h3>
+        <div id="handerror">
+            <p>Please input a number between 5 and 10:</p>
+            <input id="input" type="text">
+            <button type="button" onclick="handleError()">test input</button>
+            <button type="button" onclick="cleanMessage()">clean</button>
+            <p id="message"></p>
+        </div>
+    </div>
+    
+</body>
+</html>
