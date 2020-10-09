@@ -1,3 +1,22 @@
+var intervals = [];
+function randArrow() {
+ // if (interval == null){
+      var i = window.setInterval(randony, 100);  //const interval = window.setInterval(randArrow, 100)
+      intervals.push(i);
+  //} else{
+  //  clearInterval(interval);
+  //  interval = null;
+ // }
+}
+var clearo = () => {document.getElementById("prand").innerHTML = ""};
+function randArrowStop(){
+  intervals.forEach(clearInterval);
+}
+
+randony = () => {
+    document.getElementById("prand").innerHTML +=  Math.round(Math.random() * (Math.random() * 134))+ "\n";
+ }
+
 
 function disap() {
     var display = document.getElementById("disa").style.display;
