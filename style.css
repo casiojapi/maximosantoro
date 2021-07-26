@@ -1,15 +1,15 @@
 :root{
-    --dgrey: #ececec;
-    --pinkoid: #ff6c91;
-    --lightblueoid: #64FAB2;
+    --dgrey: #000;
+    --pinkoid: #fff;
+    --lightblueoid: #111;
 }
 
 
 html, body {
-    font-family: 'Raleway', sans-serif;
+    font-family: Helvetica, sans-serif;
     padding: 1em 2em;
     font-size: 18px;
-    background: #222;
+    background: #000;
     background: var(--pinkoid);
     color: var(--dgrey);
 }
@@ -28,17 +28,19 @@ html, body {
     font-weight: 600;
     float: right;
     display: block;
-    color: #fff;
+    color: #111;
     text-align: center;
     font-size: 1.9em;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
+    transition: 0.3s;
+    border-radius: .9em;
 }
   
   /* Change background on mouse-over */
 .navbar a:hover {
-    color: #80ffc1;
+    background: #eee;
 }   
 
 #cv {
@@ -50,7 +52,7 @@ html, body {
 }
 #cv:hover {
     opacity: 1;
-    background: #000;
+    background: #111;
     color: #fff;
 }
 
