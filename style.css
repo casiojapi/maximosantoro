@@ -44,15 +44,15 @@ html, body {
 }   
 
 #cv {
-    background: #fff;
-    color: #000;
+    background: #111;
+    color: #eee ;
     opacity: 1;  
     transition: 0.3s;
     border-radius: .9em;
 }
 #cv:hover {
     opacity: 1;
-    background: #111;
+    background: #aaa;
     color: #fff;
 }
 
