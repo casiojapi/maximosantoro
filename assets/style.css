@@ -18,9 +18,13 @@ html, body {
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 2em; /* Position the navbar at the top of the page */
-    left: 5%;
+    left: 65%;
     right: 10%;
-    width: 90%; /* Full width */
+    width: 26%; /* Full width */
+    z-index: 1;
+    padding: 0.7em 1em;
+    background: #eee;
+    
   }
   
   /* Links inside the navbar */
@@ -31,29 +35,35 @@ html, body {
     color: #111;
     text-align: center;
     font-size: 1.9em;
-    padding: 14px 16px;
+    padding: 9px 16px;
     text-decoration: none;
     transition: 0.3s;
     transition: 0.3s;
     border-radius: .9em;
+    margin: 0.1em;
+    background: #eee;
 }
   
   /* Change background on mouse-over */
 .navbar a:hover {
-    background: #eee;
+    background: #fff;
 }   
 
 #cv {
-    background: #111;
+    /* font-weight: 500; */
+    background: #222;
     color: #eee ;
     opacity: 1;  
     transition: 0.3s;
     border-radius: .9em;
+    padding: 7px 14px 9px 14px;
+    margin-right: 6%;
+    /* margin: 0em 0.5em; */
 }
 #cv:hover {
     opacity: 1;
-    background: #aaa;
-    color: #fff;
+    background: #fff;
+    color: #111;
 }
 
 
@@ -86,6 +96,7 @@ img.statue {
     right: 200px;
     bottom: 10em;
     width: 20%;
+    z-index: 0;
   }
   
 
@@ -94,3 +105,21 @@ img.statue {
     margin: auto;
     float: left;
 }
+
+.display {
+    padding-top: 2em;
+    margin: auto;
+    width: 80%
+
+}
+
+#handerror {
+    padding: 3em;
+}
+
+.footer-social-icons {
+    display: fixed;
+    margin: 23em 0em 0em 4em;
+}
+
+  
