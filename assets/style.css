@@ -122,4 +122,67 @@ img.statue {
     margin: 23em 0em 0em 4em;
 }
 
-  
+@media (max-width: 600px) {
+
+    body {
+        padding: 0.5em 1em;
+    }
+
+    img.statue {
+        position:absolute;
+        right: 2em;
+        left: 12em;
+        bottom: 9em;
+        width: 32%;
+        /* padding-bottom: 0%;
+        margin-bottom: 0%; */
+        z-index: 0;
+      }
+
+    .footer-social-icons {
+        display: fixed;
+        margin: 10em 0em 0em 0em;
+        padding-bottom: 0em;
+    }
+
+    .intro {
+        padding-top: 6em;
+        margin: auto;
+        width: 50%;
+        display: fixed;
+        margin-left: 0em;
+        /* float:left; */
+        font-size: 0.8em;
+    }
+
+    .navbar {
+        top: 0em; /* Position the navbar at the top of the page */
+        left: 0%;
+        right: 0%;
+        display: center;
+        width: 90%; /* Full width */
+        padding: 0.5em 0.3em;
+        margin: 1em;
+    }
+
+    .navbar a {
+        font-weight: 600;
+        float:inline-end;
+        font-size: 1.3em;
+        padding: 5px 6px;
+        text-decoration: none;
+        transition: 0.3s;
+        transition: 0.3s;
+        border-radius: .9em;
+        margin: 0em;
+        background: #eee;
+    }
+
+    .display {
+        margin-left: 0em;
+        width: 100%;
+        font-size: 0.6em;
+        margin-top: 3em;
+    }
+
+}
