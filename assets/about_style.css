@@ -1,0 +1,21 @@
+
+html, body {
+    font-family: Helvetica, sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #000;
+    background: var(--pinkoid);
+    color: var(--dgrey);
+}
+
+#main_content {
+    padding: 2em 3em;
+}
+
+#subcontent {
+    padding: 0em 1em;
+}
+
+#contenter {
+    padding: 0.5em 1em 0em;
+}
