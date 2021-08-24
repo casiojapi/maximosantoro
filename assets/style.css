@@ -91,6 +91,14 @@ h3 {
     font-size: 1.2em;
 }
 
+.intro a{
+    color: rgb(0, 2, 116);
+    text-decoration: underline;
+    font-size: 0.3em;
+    padding: 0em 0.7em;
+    
+}
+
 img.statue {
     position: absolute;
     right: 200px;
